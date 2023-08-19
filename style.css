@@ -1,0 +1,43 @@
+body{
+    background-color: #40cb00;
+}
+
+h1{
+    background-color: azure;
+
+    color: aquamarine;
+}
+#show_sketch{
+float: right;
+}
+@keyframes anima{
+0%{box-shadow: 1px 1px 38px white;}
+50%{box-shadow: 1px 1px 38px rgb(0, 147, 154);}
+100%{box-shadow: 1px 1px 38px rgb(255, 191, 0);}
+}
+
+canvas{
+    border: 10px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 80px;
+    animation-name: anima;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+p{
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#span1{
+    float: left;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#span2{
+    float: rig;
+    font-size: 25px;
+    padding-top: 10px;  
+}
